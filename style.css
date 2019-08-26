@@ -1,0 +1,14 @@
+.box {
+    width: 960px;
+    height: auto
+}
+
+.characterPic {
+    height: 360px;
+    width: auto;
+}
+
+.card-rows {
+    display: flex;
+    flex-flow: wrap;
+}
