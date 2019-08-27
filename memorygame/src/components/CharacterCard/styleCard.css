@@ -5,11 +5,6 @@
     border-width: 5px;
 }
 
-.card-rows {
-    display: flex;
-    flex-flow: wrap;
-}
-
 .card {
     width: 10rem;
 }
