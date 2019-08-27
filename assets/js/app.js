@@ -1,9 +1,11 @@
-var score = 0;
-var characterArr = [];
+let score = 0;
+let wins = 0;
+let characterArr = [];
 
 
 $(document).ready(function() {
     $("#score").text(score)
+    $("#wins").text(wins)
     console.log(score)
 })
 
@@ -17,7 +19,6 @@ $(document).on("click", ".friends", function() {
         addToArray(charName)
         console.log(characterArr)
     } 
-    
     else {
         gameOver()
     }
@@ -32,9 +33,11 @@ addToArray = (character) => {
 
     if(score === 12) {
         alert("You Win!");
+        wins++;
         score = 0;
         characterArr = [];
         $("#score").text(score)
+        $("#wins").text(wins)
     }
 }
 
