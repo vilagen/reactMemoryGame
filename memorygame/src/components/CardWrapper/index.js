@@ -1,7 +1,7 @@
 import React from "react";
 import "./styleCardWrapper.css"
 
-CardWrapper = (props) => {
+function CardWrapper(props) {
     return (
         <div className="container my-3 border">
             <div className="row col-12-md">

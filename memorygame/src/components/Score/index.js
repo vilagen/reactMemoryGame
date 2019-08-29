@@ -1,7 +1,7 @@
 import React from "react";
 import "./styleScore.css"
 
-Score = () => {
+function Score() {
     return (
         <div className="d-flex justify-content-center">
             <h2>Matches: <span id="score"></span></h2>
