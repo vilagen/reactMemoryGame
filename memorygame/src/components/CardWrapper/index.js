@@ -1,7 +1,7 @@
 import React from "react";
-import "./style.css"
+import "./styleCardWrapper.css"
 
-Wrapper = (props) => {
+CardWrapper = (props) => {
     return (
         <div className="container my-3 border">
             <div className="row col-12-md">
@@ -13,4 +13,4 @@ Wrapper = (props) => {
     )
 }
 
-export default Wrapper
+export default CardWrapper
