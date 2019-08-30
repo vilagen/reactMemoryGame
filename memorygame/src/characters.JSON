@@ -2,73 +2,73 @@
  {  
      "id": 1,
      "name": "Boyle",
-     "pic": "./images/BoyleS5.jpg",
+     "pic": "/images/BoyleS5.jpg",
      "altPic": "Boyle"
  },
  {  
     "id": 2,
     "name": "Doug_Judy",
-    "pic": "./images/Doug_Judy.png",
+    "pic": "/images/Doug_Judy.png",
     "altPic": "Doug_Judy"
 },
 {  
     "id": 3,
     "name": "Gina",
-    "pic": "./images/Gina_Linetti.jpg",
+    "pic": "/images/Gina_Linetti.jpg",
     "altPic": "Gina"
 },
 {  
     "id": 4,
-    "name": "Boyle",
-    "pic": "./images/BoyleS5.jpg",
-    "altPic": "Boyle"
+    "name": "Hitchcock",
+    "pic": "/images/HitchcockS5.jpg",
+    "altPic": "Hitchcock"
 },
 {  
     "id": 5,
-    "name": "Boyle",
-    "pic": "./images/BoyleS5.jpg",
-    "altPic": "Boyle"
+    "name": "Jake",
+    "pic": "/images/jake.jpg",
+    "altPic": "Jake"
 },
 {  
     "id": 6,
-    "name": "Boyle",
-    "pic": "./images/BoyleS5.jpg",
-    "altPic": "Boyle"
+    "name": "Karen",
+    "pic": "/images/KarenPeralta10.jpg",
+    "altPic": "Karen"
 },
 {  
     "id": 7,
-    "name": "Boyle",
-    "pic": "./images/BoyleS5.jpg",
-    "altPic": "Boyle"
+    "name": "Kevin",
+    "pic": "/images/kevin.jpg",
+    "altPic": "Kevin"
 },
 {  
     "id": 8,
-    "name": "Boyle",
-    "pic": "./images/BoyleS5.jpg",
-    "altPic": "Boyle"
+    "name": "Melissa",
+    "pic": "/images/Melissa-509.jpg",
+    "altPic": "Melissa"
 },
 {  
     "id": 9,
-    "name": "Boyle",
-    "pic": "./images/BoyleS5.jpg",
-    "altPic": "Boyle"
+    "name": "Raymond",
+    "pic": "/images/raymond.jpg",
+    "altPic": "Raymond"
 },
 {  
     "id": 10,
-    "name": "Boyle",
-    "pic": "./images/BoyleS5.jpg",
-    "altPic": "Boyle"
+    "name": "Rosa",
+    "pic": "/images/Rosa_Diaz.jpg",
+    "altPic": "Rosa"
 },
 {  
     "id": 11,
-    "name": "Boyle",
-    "pic": "./images/BoyleS5.jpg",
-    "altPic": "Boyle"
+    "name": "Teddy",
+    "pic": "/images/Teddy.jpg",
+    "altPic": "Teddy"
 },
 {  
     "id": 12,
-    "name": "Boyle",
-    "pic": "./images/BoyleS5.jpg",
-    "altPic": "Boyle"
-},
+    "name": "Terry",
+    "pic": "/images/TerryS5.jpg",
+    "altPic": "Terry"
+}
 ]
