@@ -29,7 +29,9 @@ state = {
 
     addToArray = name => {
         this.state.charArray.push(name);
+        this.shuffleCards(this.state.characters);
         this.setState( { matches: this.state.matches + 1 } );
+
         console.log(this.state.charArray);
 
         if(this.state.matches === 11) {
@@ -44,6 +46,22 @@ state = {
         alert("You Lose!");
         this.setState( { matches: 0})
         this.setState( { charArray: []});
+    }
+
+    shuffleCards = array => {
+        let i = array.length,
+        j = 0,
+        temp;
+
+        while(i--) {
+            j = Math.floor(Math.random() * (i + 1));
+
+            temp = array[i]
+            array[i] = array[j]
+            array[j] = temp;
+        }
+
+        return array
     }
 
         render(){
