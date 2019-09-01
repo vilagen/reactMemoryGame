@@ -2,3 +2,8 @@
     display: flex;
     flex-flow: wrap;
 }
+
+.box {
+    width: 720px;
+    height: auto
+}
