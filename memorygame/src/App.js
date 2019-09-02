@@ -5,7 +5,7 @@ import Score from "./components/Score";
 import CardWrapper from "./components/CardWrapper"
 import Wrapper from "./components/Wrapper";
 import characters from "./characters.json";
-
+import "./App.css"
 
 
 class App extends Component {
@@ -46,6 +46,7 @@ state = {
         alert("You Lose!");
         this.setState( { matches: 0})
         this.setState( { charArray: []});
+        this.shuffleCards(this.state.characters)
     }
 
     shuffleCards = array => {
@@ -67,7 +68,7 @@ state = {
         render(){
                 return (
                     <Wrapper>
-                    <Title>Memory Game</Title>
+                    <Title> {`Brooklyn Nine-Nine: Memory Game`} </Title>
                     <Score 
                         wins={this.state.wins}
                         matches={this.state.matches}
