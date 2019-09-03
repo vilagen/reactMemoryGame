@@ -2,7 +2,7 @@
   "name": "memorygame",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://vilagen.github.io/reactMemoryGame",
+  "homepage": "https://vilagen.github.io/reactMemoryGame",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
